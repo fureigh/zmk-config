@@ -51,7 +51,7 @@
             bindings = <
 &none  &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_6                &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0          &none
 &none  &kp GRAVE       &kp HOME           &kp PG_UP          &kp PAGE_DOWN  &kp END         &kp LEFT                    &kp DOWN      &kp UP            &kp RIGHT          &kp SEMICOLON         &none
-&none  &kp LEFT_SHIFT  &kp LG(LC(SPACE))  &kp LS(LG(SPACE))  &none          &kp DELETE      &kp MINUS                   &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &tp RSHIFT BACKSLASH  &none
+&none  &kp LEFT_SHIFT  &kp LG(LS(SPACE))  &kp LG(LC(SPACE))  &none          &kp DELETE      &kp MINUS                   &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &tp RSHIFT BACKSLASH  &none
                                           &kp LCTRL          &kp LGUI       &tp LALT RET    &tp LC(LS(LA(LGUI))) SPACE  &trans        &trans
             >;
         };
